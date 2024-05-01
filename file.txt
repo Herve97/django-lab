@@ -1,0 +1,14 @@
+pip install --upgrade distro-info
+pip3 install --upgrade pip==23.2.1
+pip install psycopg2-binary==2.9.7
+
+~# Inside your project
+pip install virtualenv
+virtualenv djangoenv
+source djangoenv/Scripts/activate
+
+pip install -r requirements.txt
+## The requirements.txt contains all necessary Python packages for you to run this lab.
+
+## Before you can access admin site, you will need to create a super user for the admin site.
+python3 manage.py createsuperuser

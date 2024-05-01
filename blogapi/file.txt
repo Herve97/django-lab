@@ -1,0 +1,11 @@
+1. Install pipenv (pip install pipenv)
+2. Tap pipenv shell cmd to create virtual environnement
+3. Installation of django and djangorestframework
+  - pip install django
+  - pip install djangorestframework
+4. create a django project by using
+  - django-admin startproject  blogapi(name of the project)
+
+5. Create Api by typing this command in virtual environnement
+  - python manage.py startapp blogapiApp
+6. on settings register apiApp and rest_framework on installed apps
